@@ -401,6 +401,13 @@ ul {
     color: var(--third-text-color);
 }
 
+.footer-text {
+    margin-top: 16px;
+    width: 264px;
+    
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .footer-container {
     margin-right: auto;
     margin-left: auto;
@@ -423,6 +430,7 @@ ul {
 }
 .footer-info .footer-text {
     margin-top: 16px;
+   
 }
 
 @media screen and (max-width: 767px){
@@ -1286,6 +1294,8 @@ section.services {
 
 .product-thumb {
     position: relative;
+    width: 100ww;
+    height: 100wh;
 }
 
 
