@@ -277,6 +277,7 @@ ul {
     .container.header-container {
         display: flex;
         align-items: center;
+        padding: 16px;
 
     }
 
@@ -595,7 +596,7 @@ ul {
  .subscribe-icon{
     width: 24px;
     height: 24px;
-    /* margin-left: 16px; */
+  
     fill: currentColor;
  }
  
@@ -607,7 +608,7 @@ ul {
    width: 300px;
 
         }
-    /*  */
+   
   }
 @media screen and (min-width: 480px) and (max-width: 767px){
     .mail-input {
@@ -765,7 +766,10 @@ img.worke-xample {
         padding-right: 16px;
         padding-left: 16px;
     }
-
+    .advantages-list .text {
+        font-size: 16px;
+    font-weight: 500;
+    }
     .advantages-list .item:not(:last-child) {
         margin-bottom: 72px;
     }
@@ -810,9 +814,11 @@ img.worke-xample {
         flex-wrap: wrap;
 
     }
-
-
-
+    .advantages-list .text {
+        font-size: 16px;
+    font-weight: 500;
+    }
+ 
     .advantages-list .item {
         flex-basis: calc((100% - 24px)/2);
     }
@@ -828,7 +834,10 @@ img.worke-xample {
        
 
     }
-
+    .advantages-list .text {
+        font-size: 16px;
+    font-weight: 400;
+    }
     .advantages-list.list {
         display: flex;
         flex-wrap: nowrap;
@@ -1582,7 +1591,13 @@ section.services {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.icon-click {
+    display: flex;
+    justify-content: center;
+    width: 9px;
+    height: 9px;
 
+}
 
 .checkbox:checked + .click-icon{
     background-color: var(--secondary-accent-color);
