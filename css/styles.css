@@ -277,7 +277,7 @@ ul {
     .container.header-container {
         display: flex;
         align-items: center;
-        padding: 16px;
+        padding:0 16px;
 
     }
 
@@ -1591,13 +1591,8 @@ section.services {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-click {
-    display: flex;
-    justify-content: center;
-    width: 9px;
-    height: 9px;
 
-}
+
 
 .checkbox:checked + .click-icon{
     background-color: var(--secondary-accent-color);

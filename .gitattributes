@@ -4,3 +4,26 @@
 <symbol id="icon-click" viewBox="0 0 5 4">
 <path d="M4.223 0.128c0.086-0.083 0.201-0.128 0.321-0.128s0.234 0.048 0.319 0.132c0.085 0.084 0.135 0.198 0.138 0.318s-0.040 0.236-0.121 0.325l-2.447 3.077c-0.042 0.046-0.093 0.082-0.149 0.108s-0.117 0.039-0.179 0.040c-0.062 0.001-0.123-0.010-0.181-0.034s-0.109-0.058-0.153-0.102l-1.623-1.632c-0.045-0.042-0.081-0.093-0.107-0.15s-0.039-0.118-0.040-0.18 0.010-0.124 0.033-0.181c0.023-0.058 0.058-0.11 0.101-0.154s0.096-0.079 0.153-0.102 0.119-0.035 0.18-0.034c0.062 0.001 0.123 0.015 0.179 0.040s0.107 0.062 0.149 0.107l1.284 1.291 2.13-2.729c0.004-0.005 0.008-0.009 0.012-0.014h-0.001z"></path>
 </symbol>
+
+
+
+
+
+
+
+
+
+
+   display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    fill: #fff;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    border: 1.25px solid var(--secondary-text-color);
+    border-radius: 2px;
+    transition-property: fill, border, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
