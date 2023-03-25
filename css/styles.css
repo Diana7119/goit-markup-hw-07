@@ -37,7 +37,13 @@ ul {
     padding: 0;
 }
 
-
+.container {
+    max-width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
 @media screen and (min-width: 320px) {
 
@@ -80,7 +86,11 @@ ul {
     
 
 }
-
+@media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1158px;
+    }
+  }
 
 @media screen and (min-width: 428px) {
 
@@ -109,6 +119,7 @@ ul {
     .footer-container {
         width: 100%;
         max-width: 1158px;
+       
     }
 }
 
@@ -277,7 +288,7 @@ ul {
     .container.header-container {
         display: flex;
         align-items: center;
-        padding:0 16px;
+        padding:0 15px;
 
     }
 
@@ -542,7 +553,7 @@ ul {
         flex-wrap: nowrap;
         flex-direction: row;
         justify-content: center;
-        column-gap: 14px;
+        column-gap: 0px;
        
     }
     .container .footer-info {
@@ -1118,8 +1129,8 @@ section.services {
 
 @media screen and (min-width: 1200px) {
     .customers .container {
-        width: 1128px;
-
+        width: 1158px;
+        padding: 0 15px;
     }
 
     .customers-list {
