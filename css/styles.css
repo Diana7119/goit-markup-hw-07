@@ -37,13 +37,6 @@ ul {
     padding: 0;
 }
 
-.container {
-    max-width: 428px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 
 @media screen and (min-width: 320px) {
 
